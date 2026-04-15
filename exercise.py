@@ -23,4 +23,7 @@ spiltted=email.split("@")
 text3=spiltted
 print( text3)
 
+greeting="hello".replace("i", "z",1)
+print(greeting)
+
 
