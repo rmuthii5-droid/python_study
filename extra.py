@@ -2,6 +2,7 @@ my_name=input("enter my name: ")
 print(my)
 
 
+
 #take 2 inputs of numbers
 number1=input("enter first number: ")
 number2=input("enter the second number; ")

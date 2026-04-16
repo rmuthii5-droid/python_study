@@ -27,3 +27,5 @@ greeting="hello".replace("i", "z",1)
 print(greeting)
 
 
+list2= ["mary","john","mike"]
+print(list2.count("mike"))
