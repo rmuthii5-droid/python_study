@@ -33,3 +33,19 @@ print(text)
 email= "rmuriuki27@yahoo.com"
 email= email.split("@")
 print(email)
+# list function
+x=[1,2,3,4]
+x.reverse()
+print(x)
+
+x1=[12453756]
+x1.sort()
+print(x1)
+
+
+dimensions = (10* 5* 2)
+
+print(dimensions)
+
+
+
