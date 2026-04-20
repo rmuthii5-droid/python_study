@@ -16,6 +16,7 @@ my_number.append(50)
 print(my_number)
 my_number.remove(30)
 print(my_number)
+my_number=tuple(numbers)
 
 #2. values = (15, 5, 30, 25, 10) arrange the elements in ascending order.
 
@@ -23,6 +24,7 @@ values = (15, 5, 30, 25, 10)
 my_values=list(values)
 my_values.sort()
 print(my_values)
+my_values=tuple(values)
 
 #3. fruits = ("apple", "banana", "cherry", "banana", "mango", "banana")
 #Count occurrences of "banana",Remove all occurrences of "banana".
