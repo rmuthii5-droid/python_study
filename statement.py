@@ -1,7 +1,15 @@
   #Take three inputs from a user, separately. Print the largest of the numbers.
     #Hint: Determine what type of data is taken in as input.
 
+num=input("enter the number ")
+num=int(num)
+num2=input("enter the number")
+num2=int(numb2)
+num3=input("enter the number")
+num3=int(num3)
+num4=input("enter the number")
 
+if num>num2 and num
 
 
 
