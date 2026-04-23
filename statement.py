@@ -62,3 +62,19 @@ if email ==correct_email and password==correct_password:
     print("access granted")
 else:
     print("access denied")
+
+
+#Write a Python program that checks if a variable student_score is
+#greater than 90. If true, check if the attendance is 
+#greater than 80. If both conditions are true, 
+# print "Excellent student", otherwise print "Good score, but attendance 
+#needs improvement" 
+
+student_score=input("enter marks: ")
+student_score=90 
+attendance=input("number in days: ")
+attendance=80
+if student_score>=90 and attendance >=80:
+    print("excellent")
+else:
+    print("fail")
