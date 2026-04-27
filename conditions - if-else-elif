@@ -1,2 +1,11 @@
 
-#
+
+b=int(input("enter number: "))
+goodtoken=150
+c=int(input("enter number: "))
+bad_token<=150
+
+if goodtoken>=150 and lesstoken <=150:
+    print("greater")
+else:
+    print("less than")

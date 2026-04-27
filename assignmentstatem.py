@@ -11,6 +11,8 @@ password=input("enter password: ")
 password="Admin@123"
 if email=="admin@gmail.com" and password=="Admin@123":
     print("access granted")
+elif email=="admin@gmail.com" and password=="Admin@123":
+  print("wrong password")
 else: 
     print("email not found")
 
@@ -20,31 +22,43 @@ else:
 #"Gmail account" if it ends with "@gmail.com"
 #"Other email provider" otherwise
 
-valid_email=input("@")
-Gmail_account=input("@gmail.com")
+email=input("enter your email")
 
-if valid_email=="@":
-    print("valid email")
+
+if email.find("@") ==-1 or email.find(".")==1:
+    print("invalid email")
 else:
     print("not valid")
-    
-elif: Gmail_account="@gmail.com"
-print("gmail account")
-else 
+
+elif email.endswith("@gmail.com")
+    print("gmail account")
+else:
 print("other email account")
 
 
 
 Write a program that checks password strength:
-"Weak" if length < 6
-"Moderate" if length 6–10 and contains at least one digit
-"Strong" if length > 10 and contains both digits and uppercase letters
+
+if length <6:
+print("weak")
+ if length ==6-10 and contains at least one digit:
+   print("Moderate" )
+if length > 10 and contains both digits and uppercase letters password
+print("Strong")
+
 4.
-Write a program that checks a password:
+#4Write a program that checks a password:
 "Invalid" if it does not start with a capital letter
 "Invalid" if it does not end with a number
 "Valid password" otherwise
-5.
+
+if password[0].isupper() or password[-1].isdigit():
+   print("valid")
+
+
+
+
+
 Write a program that takes a number and checks:
 
 "Fizz" if divisible by 3
